@@ -6,7 +6,7 @@ import Home from './components/Home';
 import Navbar from './components/Navbar';
 import Portfolio from './components/Portfolio';
 import SocialLinks from './components/SocialLinks';
-import { useState, useEffect } from 'react';
+import { useState} from 'react';
 import ScrollReveal from 'scrollreveal'
 
 function App() {
