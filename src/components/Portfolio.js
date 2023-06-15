@@ -70,13 +70,13 @@ const Portfolio = ({ScrollReveal}) => {
 
                             <div key={id} className='shadow-lg shadow-cyan-600 rounded-lg flex relative overflow-hidden'>
                                 <img className='rounded-md hover:scale-105 duration-200' src={src} alt="" />
-                                <div className='absolute bottom-0 left-0 w-full h-full hover:bg-gradient-to-b from-black  flex flex-col justify-end items-center translate-y-36 hover:translate-y-0 duration-200'>
+                                <div className='absolute bottom-0 left-0 w-full h-full hover:bg-gradient-to-b from-black  flex flex-col justify-end items-center md:translate-y-36 hover:translate-y-0 duration-200'>
                                 <div className='fixed top-0 right-0'>
                                 <AiOutlineArrowUp size={1}/>
                                 </div>
-                                <div className='text-white mb-4'>
-                                    <a href={demo}><button className='bg-gradient-to-b from-cyan-200 to-cyan-600 text-lg mr-5 px-2 rounded-md border border-white hover:scale-110 duration-200'>Demo</button></a>
-                                    <a href={code}><button className='bg-gradient-to-b from-cyan-200 to-cyan-600 text-lg ml-5 px-2 rounded-md border border-white hover:scale-110 duration-200'>Code</button></a>
+                                <div className='text-white md:mb-4 -mb-1'>
+                                    <a href={demo}><button className='bg-gradient-to-b from-cyan-200 to-cyan-600 md:text-lg text-sm mr-5 px-1 rounded-md border border-white hover:scale-110 duration-200'>Demo</button></a>
+                                    <a href={code}><button className='bg-gradient-to-b from-cyan-200 to-cyan-600 md:text-lg text-sm ml-5 px-1 rounded-md border border-white hover:scale-110 duration-200'>Code</button></a>
                                 </div>
                                 </div> 
                             </div>

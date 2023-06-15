@@ -33,8 +33,8 @@ const Navbar = ({ darkMode, setDarkMode }) => {
         <header className='flex justify-between items-center w-full h-20 fixed z-10 px-4 dark:text-white dark:bg-gray-900 bg-white text-gray-900'>
             <div className='flex'>
                 <a className='flex' href="/home">
-                    <img className='w-12 mr-2' src={bag} alt="" />
-                    <h1 className='text-4xl ml-2 mr-3'>PortFolio</h1>
+                    <img className='w-10 mr-2' src={bag} alt="" />
+                    <h1 className='text-3xl ml-2 mt-1'>PortFolio</h1>
                 </a>
                 <div onClick={() => setDarkMode(!darkMode)} className='cursor-pointer ml-5 pt-2'>
                     {darkMode ? (<MdWbSunny size={30} />) : (<MdNightsStay size={30} />)}
