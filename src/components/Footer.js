@@ -14,7 +14,7 @@ const Footer = () => {
                 <MdCall size={30} /> <span className='pl-4'>+91 8447891511</span>
             </p>
         </div >
-        <div  className='text-center'>
+        <div  className='text-center pb-2'>
         Designed & Built by Deepak Kumar © 2023
         </div>
     </>
