@@ -10,7 +10,7 @@ const About = ({ ScrollReveal }) => {
         return () => {
             sr.destroy();
         }
-    }, [])
+    }, [ScrollReveal])
     return (
         <div name="about" className='pt-16 w-full min-h-screen'>
             <div className='max-w-screen p-4 mx-auto flex flex-col justify-center w-full h-full'>

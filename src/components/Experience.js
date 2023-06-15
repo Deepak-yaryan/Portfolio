@@ -104,7 +104,7 @@ const Experience = ({ ScrollReveal }) => {
         return () => {
             sr.destroy();
         }
-    }, [])
+    }, [ScrollReveal])
 
     const backend = [
         {

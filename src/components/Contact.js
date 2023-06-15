@@ -12,7 +12,7 @@ const Contact = ({ScrollReveal}) => {
         return () => {
             sr.destroy();
           }
-    },[])
+    },[ScrollReveal])
 
     return (
         <div name="contact" className='w-full h-screen'>

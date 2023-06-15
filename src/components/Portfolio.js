@@ -54,7 +54,7 @@ const Portfolio = ({ScrollReveal}) => {
         return () => {
             sr.destroy();
           }
-    }, [])
+    }, [ScrollReveal])
 
     return (
         <div name="portfolio" className='pt-16 w-full min-h-screen'>

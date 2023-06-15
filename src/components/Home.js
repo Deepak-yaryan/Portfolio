@@ -24,7 +24,7 @@ const Home = ({ScrollReveal}) => {
       typed.destroy();
       sr.destroy();
     }
-  }, []);
+  }, [ScrollReveal]);
 
 
   return (
