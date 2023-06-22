@@ -63,7 +63,7 @@ const Portfolio = ({ ScrollReveal }) => {
     }, [ScrollReveal])
 
     return (
-        <div name="portfolio" className='pt-16 w-full min-h-screen'>
+        <div name="portfolio" className='pt-20 w-full min-h-screen'>
             <div className='max-w-screen mx-auto flex flex-col justify-center w-full h-full'>
                 <div className='heading pb-8 p-4'>
                     <p className='text-4xl font-bold inline border-b-4 border-gray-400'>Portfolio</p>
