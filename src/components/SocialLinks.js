@@ -13,7 +13,7 @@ const SocialLinks = () => {
                 LinkedIn <FaLinkedin size={25}/>
                 </>
             ),
-            href: 'https://linkedin.com',
+            href: 'https://www.linkedin.com/in/deepak-kumar-8b7b6223a',
             style: 'rounded-tr-md'
         },
         {
@@ -23,7 +23,7 @@ const SocialLinks = () => {
                 GitHub <FaGithub size={25}/>
                 </>
             ),
-            href: 'https://github.com',
+            href: 'https://github.com/Deepak-yaryan',
         },
         {
             id: 3,
